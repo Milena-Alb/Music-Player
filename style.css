@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    box-sizing: border-box; 
+    padding: 0;
+}
+.conteiner{
+    background: #0f0d13;
+    height: 100vh;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-player{
+    background: #2a2141;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.conteudo-musica p{
+    font-size: 2.4rem;
+}
+.conteudo-musica span{
+    font-size: 1.8rem;
+}
