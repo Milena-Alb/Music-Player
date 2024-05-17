@@ -8,7 +8,7 @@
 }
 :root {
   font-size: 62.5%;
-  background: #0f0d13;
+  background: #27252b;
 }
 .hide {
   display: none;
@@ -21,17 +21,35 @@
 }
 
 .card-player {
-  background: #2a2141;
   color: #fff;
   display: flex;
   flex-direction: column;
   padding: 40px;
+  border-radius: 8px;
+}
+.image{
+  border-radius: 8px;
+}
+.card-player.ILost{
+  background-color: #bca733;
+}
+.card-player.Lose{
+  background-color: #F53919;
+}
+.card-player.MelhorSo{
+  background-color: #202223;
+}
+.card-player.Ela{
+  background-color: #b8899b;
+}
+.card-player.Futil{
+  background-color: #4a2270e3;
 }
 .desc-musica {
   margin: 20px 0px 15px 0px;
 }
 .desc-musica span {
-  color: #9895a5;
+  color: #666276;
 }
 .conteudo-musica p {
   font-size: 2.4rem;
