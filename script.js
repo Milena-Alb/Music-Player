@@ -118,6 +118,11 @@ function voltar() {
   play();
 }
 
+function setProgress(){
+  const progressBarra = progressBar.value;
+  const tempo = (progressBarra/100)* music.duration;
+  music.currentTime = tempo;
+}
 
 carregarMusica(currentIndex); 
 buttonPlay.addEventListener('click', play);
