@@ -6,6 +6,24 @@
   margin: 0;
   padding: 0;
 }
+#buscar, #verificar {
+  padding: 9px;
+  font-size: 1.2rem;
+  margin: 12px 10px;
+  color: #9b9b9b;
+  background-color: #474a4c;
+  border: 1px solid #0000006e;
+  border-radius: 12px;
+}
+#buscar{
+  width: 25%;
+}
+.menus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 :root {
   font-size: 62.5%;
   background: #27252b;
@@ -14,7 +32,7 @@
   display: none;
 }
 .container {
-  height: 100vh;
+  height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
