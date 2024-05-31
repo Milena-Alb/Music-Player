@@ -130,6 +130,3 @@ buttonPause.addEventListener('click', pause);
 buttonAvancar.addEventListener('click', avancar);
 buttonVoltar.addEventListener('click', voltar);
 progressBar.addEventListener('input', setProgress);
-
-
-
